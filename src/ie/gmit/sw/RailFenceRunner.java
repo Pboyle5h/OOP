@@ -13,7 +13,7 @@ public class RailFenceRunner {
 		while(valid){
 			System.out.println("Enter file name of the file containing the enrypted text:");
 			fileIn = console.next();
-			FilesParser fp = new FilesParser();
+			FileReader fp = new FileReader();
 				try {
 					efile=fp.retrieveFile(fileIn);
 					valid=false;
