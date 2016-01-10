@@ -6,6 +6,7 @@ import java.util.Scanner;
 public class RailFenceRunner {
 	static Scanner console = new Scanner(System.in);
 	public static void main(String[] args) throws IOException {
+		QuadGramMap.fillMap(); 
 		String fileIn ="";
 		String efile="";
 		boolean valid=true;

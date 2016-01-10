@@ -13,7 +13,7 @@ import java.util.concurrent.ConcurrentHashMap;
 public class FilesParser {
 	
 	String line=null;
-	public Map<String, Double> parse (String file) throws NumberFormatException, IOException 
+	public Map<String, Double> parse (String File) throws NumberFormatException, IOException 
 	{
 		Map<String, Double> temp = new ConcurrentHashMap<String, Double>();
 		BufferedReader input = null;
@@ -26,7 +26,7 @@ public class FilesParser {
 		while ((line = input.readLine())!= null) {
 			
 			String[] Score = line.split(" ");
-			temp.put(Score[0], Double.parseDouble(Score[1]));	
+			QuadGramMap.QGMap.put(Score[0], Double.parseDouble(Score[1]));	
 				
 			 }//while
 		input.close();
