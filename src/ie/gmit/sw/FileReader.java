@@ -21,7 +21,6 @@ public class FileReader {
 		
 		br.close(); 
 		cypherText=sb.toString();
-		System.out.println(cypherText);
 		return cypherText;
 		
 	}	

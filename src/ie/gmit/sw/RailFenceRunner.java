@@ -14,9 +14,10 @@ public class RailFenceRunner {
 		while(valid){
 			System.out.println("Enter file name of the file containing the enrypted text:");
 			fileIn = console.next();
-			FileReader fp = new FileReader();
+			FileReader fr = new FileReader();
 				try {
-					efile=fp.retrieveFile(fileIn);
+					efile=fr.retrieveFile(fileIn);
+					CypherBreaker cb = new CypherBreaker(efile);
 					valid=false;
 				} catch (IOException e) {
 					System.out.println("Unable to open File");
