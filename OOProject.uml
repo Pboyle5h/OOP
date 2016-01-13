@@ -1,0 +1,862 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="20131001" xmlns:xmi="http://www.omg.org/spec/XMI/20131001" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:UMLLabProfile="http:///schemas/UMLLabProfile/NS/0" xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore" xmlns:uml="http://www.eclipse.org/uml2/5.0.0/UML" xsi:schemaLocation="http:///schemas/UMLLabProfile/NS/0 pathmap://UMLLAB_PROFILES/UMLLab.profile.uml#UMLLabProfile-Annotation_2-UMLLabProfile">
+  <uml:Model xmi:id="_2TmrYLowEeW4KJ2IY8zttg" name="OOProject">
+    <eAnnotations xmi:id="_24EqYLowEeW4KJ2IY8zttg" source="http://ns.yatta.de/umllab">
+      <contents xmi:type="ecore:EAnnotation" xmi:id="_24FRcLowEeW4KJ2IY8zttg" source="codegen">
+        <details xmi:id="_24F4gLowEeW4KJ2IY8zttg" key="codegenDirectory" value="/OOProject/src"/>
+        <details xmi:id="_4dl2sLowEeW4KJ2IY8zttg" key="AssociatedSourceCode" value="/OOProject/src/ie/gmit/sw/Cunsumer.java;1542647788/1;/OOProject/src/ie/gmit/sw/CypherBreaker.java;4259950080/1;/OOProject/src/ie/gmit/sw/Decryptor.java;8307386/1;/OOProject/src/ie/gmit/sw/FileReader.java;2533344811/1;/OOProject/src/ie/gmit/sw/FilesParser.java;1897352354/1;/OOProject/src/ie/gmit/sw/QuadGramMap.java;1920836184/1;/OOProject/src/ie/gmit/sw/RailFence.java;1212571264/1;/OOProject/src/ie/gmit/sw/RailFenceRunner.java;1258157904/1;/OOProject/src/ie/gmit/sw/Result.java;1623541022/1;/OOProject/src/ie/gmit/sw/Resultable.java;2232180656/1;/OOProject/src/ie/gmit/sw/TextScorer.java;484146084/1;/OOProject/src/ie/gmit/sw/poisionResult.java;3440549584/1;"/>
+      </contents>
+    </eAnnotations>
+    <elementImport xmi:id="_3gIv8LowEeW4KJ2IY8zttg">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+    </elementImport>
+    <elementImport xmi:id="_3gJXALowEeW4KJ2IY8zttg">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#byte"/>
+    </elementImport>
+    <elementImport xmi:id="_3gJ-ELowEeW4KJ2IY8zttg">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#char"/>
+    </elementImport>
+    <elementImport xmi:id="_3gJ-EbowEeW4KJ2IY8zttg">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+    </elementImport>
+    <elementImport xmi:id="_3gKlILowEeW4KJ2IY8zttg">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#float"/>
+    </elementImport>
+    <elementImport xmi:id="_3gKlIbowEeW4KJ2IY8zttg">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+    </elementImport>
+    <elementImport xmi:id="_3gLMMLowEeW4KJ2IY8zttg">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#long"/>
+    </elementImport>
+    <elementImport xmi:id="_3gLMMbowEeW4KJ2IY8zttg">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#short"/>
+    </elementImport>
+    <elementImport xmi:id="_3gNBYLowEeW4KJ2IY8zttg">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+    </elementImport>
+    <packagedElement xmi:type="uml:Package" xmi:id="_3dTeYLowEeW4KJ2IY8zttg" name="ie">
+      <packagedElement xmi:type="uml:Package" xmi:id="_3dUFcLowEeW4KJ2IY8zttg" name="gmit">
+        <packagedElement xmi:type="uml:Package" xmi:id="_3dxYcLowEeW4KJ2IY8zttg" name="sw">
+          <packagedElement xmi:type="uml:Class" xmi:id="_3f77oLowEeW4KJ2IY8zttg" name="Cunsumer">
+            <ownedAttribute xmi:id="_31acYLowEeW4KJ2IY8zttg" name="hScore" visibility="private" type="_3ieSQLowEeW4KJ2IY8zttg" association="_33OaQLowEeW4KJ2IY8zttg">
+              <defaultValue xmi:type="uml:LiteralString" xmi:id="_31bqgLowEeW4KJ2IY8zttg" value="null"/>
+            </ownedAttribute>
+            <ownedAttribute xmi:id="_31c4oLowEeW4KJ2IY8zttg" name="queue" visibility="private" type="_3zDE4LowEeW4KJ2IY8zttg" association="_33QPcbowEeW4KJ2IY8zttg"/>
+            <ownedAttribute xmi:id="_31mCkLowEeW4KJ2IY8zttg" name="result" visibility="private" type="_3ieSQLowEeW4KJ2IY8zttg" association="_33SEobowEeW4KJ2IY8zttg">
+              <defaultValue xmi:type="uml:LiteralString" xmi:id="_31oe0LowEeW4KJ2IY8zttg" value="null"/>
+            </ownedAttribute>
+            <ownedAttribute xmi:id="_31qUALowEeW4KJ2IY8zttg" name="count" visibility="private">
+              <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+            </ownedAttribute>
+            <interfaceRealization xmi:id="_30lV8LowEeW4KJ2IY8zttg" client="_3f77oLowEeW4KJ2IY8zttg" supplier="_30i5sLowEeW4KJ2IY8zttg" contract="_30i5sLowEeW4KJ2IY8zttg"/>
+            <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_32lhELowEeW4KJ2IY8zttg" name="Cunsumer" specification="_30nLILowEeW4KJ2IY8zttg">
+              <ownedParameter xmi:id="_32mIILowEeW4KJ2IY8zttg" name="count">
+                <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+              </ownedParameter>
+              <ownedParameter xmi:id="_32mIIbowEeW4KJ2IY8zttg" name="queue" type="_3zDE4LowEeW4KJ2IY8zttg"/>
+              <ownedParameter xmi:id="_32mIIrowEeW4KJ2IY8zttg" type="_3f77oLowEeW4KJ2IY8zttg" direction="return"/>
+              <language>java</language>
+              <body>super();&#xD;
+		this.count = count;&#xD;
+		this.queue = queue;&#xD;
+	</body>
+            </ownedBehavior>
+            <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_32sOwLowEeW4KJ2IY8zttg" name="run" specification="_3gTvELowEeW4KJ2IY8zttg">
+              <language>java</language>
+              <body>while (!queue.isEmpty()) {&#xD;
+			try {&#xD;
+&#xD;
+				Resultable r = queue.take();&#xD;
+				count--; &#xD;
+				if (hScore == null || r.getScore() > hScore.getScore()) { &#xD;
+					hScore = r;&#xD;
+&#xD;
+				}&#xD;
+				&#xD;
+&#xD;
+			} catch (InterruptedException e) {&#xD;
+				// TODO Auto-generated catch block&#xD;
+				e.printStackTrace();&#xD;
+			}&#xD;
+		}&#xD;
+		&#xD;
+		System.out.println(&#xD;
+				&quot;Plain Text: &quot; + hScore.getPlainText() + &quot;\nKey used to decrypt: &quot; + hScore.getKey() + &quot;\nScore: &quot; + hScore.getScore());&#xD;
+&#xD;
+	</body>
+            </ownedBehavior>
+            <ownedOperation xmi:id="_3gTvELowEeW4KJ2IY8zttg" name="run" method="_32sOwLowEeW4KJ2IY8zttg"/>
+            <ownedOperation xmi:id="_30nLILowEeW4KJ2IY8zttg" name="Cunsumer" method="_32lhELowEeW4KJ2IY8zttg">
+              <eAnnotations xmi:id="_30oZQLowEeW4KJ2IY8zttg" source="http://www.eclipse.org/uml2/2.0.0/UML">
+                <details xmi:id="_30oZQbowEeW4KJ2IY8zttg" key="create"/>
+              </eAnnotations>
+              <ownedParameter xmi:id="_30nyMLowEeW4KJ2IY8zttg" name="count">
+                <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+              </ownedParameter>
+              <ownedParameter xmi:id="_30nyMbowEeW4KJ2IY8zttg" name="queue" type="_3zDE4LowEeW4KJ2IY8zttg"/>
+              <ownedParameter xmi:id="_30oZQrowEeW4KJ2IY8zttg" type="_3f77oLowEeW4KJ2IY8zttg" direction="return"/>
+            </ownedOperation>
+          </packagedElement>
+          <packagedElement xmi:type="uml:Class" xmi:id="_3gsJkLowEeW4KJ2IY8zttg" name="CypherBreaker">
+            <ownedAttribute xmi:id="_31tXULowEeW4KJ2IY8zttg" name="MAX_QUEUE_SIZE" visibility="private" isLeaf="true" isStatic="true" isReadOnly="true">
+              <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+              <defaultValue xmi:type="uml:LiteralString" xmi:id="_31t-YLowEeW4KJ2IY8zttg" value="100"/>
+            </ownedAttribute>
+            <ownedAttribute xmi:id="_31ulcLowEeW4KJ2IY8zttg" name="queue" visibility="private" type="_3zDE4LowEeW4KJ2IY8zttg" association="_33Ug4LowEeW4KJ2IY8zttg"/>
+            <ownedAttribute xmi:id="_31zd8LowEeW4KJ2IY8zttg" name="cypherText" visibility="private">
+              <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+            </ownedAttribute>
+            <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_32tc4LowEeW4KJ2IY8zttg" name="CypherBreaker" specification="_3gwbALowEeW4KJ2IY8zttg">
+              <ownedParameter xmi:id="_32tc4bowEeW4KJ2IY8zttg" name="cypherText">
+                <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+              </ownedParameter>
+              <ownedParameter xmi:id="_32tc4rowEeW4KJ2IY8zttg" type="_3gsJkLowEeW4KJ2IY8zttg" direction="return"/>
+              <language>java</language>
+              <body>queue = new ArrayBlockingQueue&lt;Resultable>(MAX_QUEUE_SIZE);&#xD;
+		this.cypherText =cypherText;&#xD;
+		init();&#xD;
+	</body>
+            </ownedBehavior>
+            <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_32uD8LowEeW4KJ2IY8zttg" name="init" specification="_3g0FYLowEeW4KJ2IY8zttg">
+              <language>java</language>
+              <body>for(int i=2; i&lt;cypherText.length()/2; i++)&#xD;
+		{&#xD;
+			new Thread(new Decryptor(queue, cypherText, i)).start();&#xD;
+		}&#xD;
+		Thread t = new Thread(new Cunsumer(cypherText.length()/2, queue)); &#xD;
+		t.start(); //start thread&#xD;
+	</body>
+            </ownedBehavior>
+            <ownedOperation xmi:id="_3gwbALowEeW4KJ2IY8zttg" name="CypherBreaker" method="_32tc4LowEeW4KJ2IY8zttg">
+              <eAnnotations xmi:id="_3gyQMLowEeW4KJ2IY8zttg" source="http://www.eclipse.org/uml2/2.0.0/UML">
+                <details xmi:id="_3gyQMbowEeW4KJ2IY8zttg" key="create"/>
+              </eAnnotations>
+              <ownedParameter xmi:id="_3gxCELowEeW4KJ2IY8zttg" name="cypherText">
+                <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+              </ownedParameter>
+              <ownedParameter xmi:id="_3gy3QLowEeW4KJ2IY8zttg" type="_3gsJkLowEeW4KJ2IY8zttg" direction="return"/>
+            </ownedOperation>
+            <ownedOperation xmi:id="_3g0FYLowEeW4KJ2IY8zttg" name="init" method="_32uD8LowEeW4KJ2IY8zttg"/>
+          </packagedElement>
+          <packagedElement xmi:type="uml:Class" xmi:id="_3g494LowEeW4KJ2IY8zttg" name="Decryptor">
+            <ownedAttribute xmi:id="_3116MLowEeW4KJ2IY8zttg" name="queue" visibility="private" type="_3zDE4LowEeW4KJ2IY8zttg" association="_33VvAbowEeW4KJ2IY8zttg"/>
+            <ownedAttribute xmi:id="_315kkLowEeW4KJ2IY8zttg" name="cypherText" visibility="private">
+              <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+            </ownedAttribute>
+            <ownedAttribute xmi:id="_317ZwLowEeW4KJ2IY8zttg" name="key" visibility="private">
+              <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+            </ownedAttribute>
+            <ownedAttribute xmi:id="_319O8LowEeW4KJ2IY8zttg" name="tScore" visibility="private" type="_3i8MULowEeW4KJ2IY8zttg" association="_33XkMbowEeW4KJ2IY8zttg"/>
+            <ownedAttribute xmi:id="_31_EILowEeW4KJ2IY8zttg" name="rf" visibility="package" type="_3h0yALowEeW4KJ2IY8zttg" association="_33ZZYLowEeW4KJ2IY8zttg">
+              <defaultValue xmi:type="uml:LiteralString" xmi:id="_31_rMLowEeW4KJ2IY8zttg" value="new RailFence()"/>
+            </ownedAttribute>
+            <interfaceRealization xmi:id="_30wVELowEeW4KJ2IY8zttg" client="_3g494LowEeW4KJ2IY8zttg" supplier="_30i5sLowEeW4KJ2IY8zttg" contract="_30i5sLowEeW4KJ2IY8zttg"/>
+            <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_32vSELowEeW4KJ2IY8zttg" name="Decryptor" specification="_30yxULowEeW4KJ2IY8zttg">
+              <ownedParameter xmi:id="_32vSEbowEeW4KJ2IY8zttg" name="queue" type="_3zDE4LowEeW4KJ2IY8zttg"/>
+              <ownedParameter xmi:id="_32vSErowEeW4KJ2IY8zttg" name="cypherText">
+                <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+              </ownedParameter>
+              <ownedParameter xmi:id="_32vSE7owEeW4KJ2IY8zttg" name="key">
+                <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+              </ownedParameter>
+              <ownedParameter xmi:id="_32vSFLowEeW4KJ2IY8zttg" type="_3g494LowEeW4KJ2IY8zttg" direction="return"/>
+              <language>java</language>
+              <body>super();&#xD;
+		this.queue = queue;&#xD;
+		this.cypherText = cypherText;&#xD;
+		this.key = key;&#xD;
+		&#xD;
+	</body>
+            </ownedBehavior>
+            <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_32v5ILowEeW4KJ2IY8zttg" name="run" specification="_3g-dcLowEeW4KJ2IY8zttg">
+              <language>java</language>
+              <body>double score = 0;&#xD;
+		String plainText = rf.decrypt(cypherText, key);&#xD;
+		tScore = new TextScorer(QuadGramMap.QGMap);&#xD;
+		Resultable r = new Result(plainText, key, tScore.getScore(plainText));&#xD;
+		&#xD;
+				&#xD;
+		try {&#xD;
+			queue.put(r);&#xD;
+		} catch (InterruptedException e) {&#xD;
+			&#xD;
+			e.printStackTrace();&#xD;
+		}&#xD;
+		&#xD;
+	</body>
+            </ownedBehavior>
+            <ownedOperation xmi:id="_3g-dcLowEeW4KJ2IY8zttg" name="run" method="_32v5ILowEeW4KJ2IY8zttg"/>
+            <ownedOperation xmi:id="_30yxULowEeW4KJ2IY8zttg" name="Decryptor" method="_32vSELowEeW4KJ2IY8zttg">
+              <eAnnotations xmi:id="_300mgLowEeW4KJ2IY8zttg" source="http://www.eclipse.org/uml2/2.0.0/UML">
+                <details xmi:id="_300mgbowEeW4KJ2IY8zttg" key="create"/>
+              </eAnnotations>
+              <ownedParameter xmi:id="_30yxUbowEeW4KJ2IY8zttg" name="queue" type="_3zDE4LowEeW4KJ2IY8zttg"/>
+              <ownedParameter xmi:id="_30zYYLowEeW4KJ2IY8zttg" name="cypherText">
+                <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+              </ownedParameter>
+              <ownedParameter xmi:id="_30z_cLowEeW4KJ2IY8zttg" name="key">
+                <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+              </ownedParameter>
+              <ownedParameter xmi:id="_300mgrowEeW4KJ2IY8zttg" type="_3g494LowEeW4KJ2IY8zttg" direction="return"/>
+            </ownedOperation>
+          </packagedElement>
+          <packagedElement xmi:type="uml:Class" xmi:id="_3hIOcLowEeW4KJ2IY8zttg" name="FileReader">
+            <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_32xHQLowEeW4KJ2IY8zttg" name="retrieveFile" specification="_3hKqsLowEeW4KJ2IY8zttg">
+              <ownedParameter xmi:id="_32xHQbowEeW4KJ2IY8zttg" name="cypherText">
+                <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+              </ownedParameter>
+              <ownedParameter xmi:id="_32xHQrowEeW4KJ2IY8zttg" direction="return">
+                <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+              </ownedParameter>
+              <language>java</language>
+              <body>StringBuilder sb = new StringBuilder(); 	&#xD;
+		File file =new File(cypherText);&#xD;
+		BufferedReader br = new BufferedReader(new InputStreamReader(new FileInputStream(file)));&#xD;
+		String contents; 			&#xD;
+		&#xD;
+		&#xD;
+			while((contents=br.readLine())!=null){ &#xD;
+			sb.append(contents);&#xD;
+			}&#xD;
+		&#xD;
+		br.close(); &#xD;
+		cypherText=sb.toString();&#xD;
+		return cypherText;&#xD;
+		&#xD;
+	</body>
+            </ownedBehavior>
+            <ownedOperation xmi:id="_3hKqsLowEeW4KJ2IY8zttg" name="retrieveFile" method="_32xHQLowEeW4KJ2IY8zttg" raisedException="_3zgX4bowEeW4KJ2IY8zttg">
+              <ownedParameter xmi:id="_3hLRwLowEeW4KJ2IY8zttg" name="cypherText">
+                <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+              </ownedParameter>
+              <ownedParameter xmi:id="_3hL40LowEeW4KJ2IY8zttg" direction="return">
+                <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+              </ownedParameter>
+            </ownedOperation>
+          </packagedElement>
+          <packagedElement xmi:type="uml:Class" xmi:id="_3hQKQLowEeW4KJ2IY8zttg" name="FilesParser">
+            <ownedAttribute xmi:id="_32BgYLowEeW4KJ2IY8zttg" name="line" visibility="package">
+              <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+              <defaultValue xmi:type="uml:LiteralString" xmi:id="_32CHcLowEeW4KJ2IY8zttg" value="null"/>
+            </ownedAttribute>
+            <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_32yVYLowEeW4KJ2IY8zttg" name="parse" specification="_3hTNkLowEeW4KJ2IY8zttg">
+              <ownedParameter xmi:id="_32yVYbowEeW4KJ2IY8zttg" name="File">
+                <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+              </ownedParameter>
+              <ownedParameter xmi:id="_32yVYrowEeW4KJ2IY8zttg" type="_3zz54LowEeW4KJ2IY8zttg" direction="return"/>
+              <language>java</language>
+              <body>Map&lt;String, Double> temp = new ConcurrentHashMap&lt;String, Double>();&#xD;
+		BufferedReader input = null;&#xD;
+		try {&#xD;
+			input = new BufferedReader(new InputStreamReader(new FileInputStream(&quot;4grams.txt&quot;)));&#xD;
+		} catch (FileNotFoundException e) {&#xD;
+			e.printStackTrace();&#xD;
+		}&#xD;
+		&#xD;
+		while ((line = input.readLine())!= null) {&#xD;
+			&#xD;
+			String[] Score = line.split(&quot; &quot;);&#xD;
+			temp.put(Score[0], Double.parseDouble(Score[1]));	&#xD;
+				&#xD;
+			 }//while&#xD;
+		input.close();&#xD;
+		return temp;&#xD;
+	</body>
+            </ownedBehavior>
+            <ownedOperation xmi:id="_3hTNkLowEeW4KJ2IY8zttg" name="parse" method="_32yVYLowEeW4KJ2IY8zttg" raisedException="_30_loLowEeW4KJ2IY8zttg _3zgX4bowEeW4KJ2IY8zttg">
+              <ownedParameter xmi:id="_3hT0oLowEeW4KJ2IY8zttg" name="File">
+                <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+              </ownedParameter>
+              <ownedParameter xmi:id="_309wcLowEeW4KJ2IY8zttg" type="_3zz54LowEeW4KJ2IY8zttg" direction="return"/>
+            </ownedOperation>
+          </packagedElement>
+          <packagedElement xmi:type="uml:Class" xmi:id="_3hroELowEeW4KJ2IY8zttg" name="QuadGramMap">
+            <ownedAttribute xmi:id="_32EjsLowEeW4KJ2IY8zttg" name="GRAM_SIZE" isStatic="true">
+              <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+              <defaultValue xmi:type="uml:LiteralString" xmi:id="_32FKwLowEeW4KJ2IY8zttg" value="4"/>
+            </ownedAttribute>
+            <ownedAttribute xmi:id="_32G_8LowEeW4KJ2IY8zttg" name="QGMap" isStatic="true">
+              <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+              <qualifier xmi:id="_32I1ILowEeW4KJ2IY8zttg">
+                <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+              </qualifier>
+              <defaultValue xmi:type="uml:LiteralString" xmi:id="_32G_8bowEeW4KJ2IY8zttg" value="new ConcurrentHashMap&lt;String,Double>()"/>
+            </ownedAttribute>
+            <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_32y8cLowEeW4KJ2IY8zttg" name="fillMap" specification="_3hyVwLowEeW4KJ2IY8zttg">
+              <language>java</language>
+              <body>String File = &quot;4grams.txt&quot;;&#xD;
+		FilesParser fp = new FilesParser();&#xD;
+		try {&#xD;
+			QGMap=fp.parse(File);&#xD;
+			} catch (IOException e) {&#xD;
+			e.printStackTrace();&#xD;
+		}	&#xD;
+	</body>
+            </ownedBehavior>
+            <ownedOperation xmi:id="_3hyVwLowEeW4KJ2IY8zttg" name="fillMap" isStatic="true" method="_32y8cLowEeW4KJ2IY8zttg"/>
+          </packagedElement>
+          <packagedElement xmi:type="uml:Class" xmi:id="_3h0yALowEeW4KJ2IY8zttg" name="RailFence">
+            <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_320KkLowEeW4KJ2IY8zttg" name="encrypt" specification="_3h3OQLowEeW4KJ2IY8zttg">
+              <ownedParameter xmi:id="_320KkbowEeW4KJ2IY8zttg" name="cypherText">
+                <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+              </ownedParameter>
+              <ownedParameter xmi:id="_320KkrowEeW4KJ2IY8zttg" name="key">
+                <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+              </ownedParameter>
+              <ownedParameter xmi:id="_320Kk7owEeW4KJ2IY8zttg" direction="return">
+                <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+              </ownedParameter>
+              <language>java</language>
+              <body>//Declare a 2D array of key rows and text length columns
+		char[][] matrix = new char[key][cypherText.length()]; //The array is filled with chars with initial values of zero, i.e. '0'.
+		
+		//Fill the array
+		int row = 0; //Used to keep track of rows
+		boolean down = true; //Used to zigzag
+		for (int i = 0; i &lt; cypherText.length(); i++){ //Loop over the plaintext
+			matrix[row][i] = cypherText.charAt(i); //Add the next character in the plaintext to the array
+			
+			if (down){ //If we are moving down the array
+				row++;
+				if (row == matrix.length){ //Reached the bottom
+					row = matrix.length - 2; //Move to the row above
+					down = false; //Switch to moving up
+				} 
+			}else{ //We are moving up the array
+				row--;
+				
+				if (row == -1){ //Reached the top
+					row = 1; //Move to the first row
+					down = true; //Switch to moving down
+				}
+			}
+		}
+		
+		//printMatrix(matrix); //Output the matrix (debug)
+		
+		//Extract the cypher text
+		StringBuffer sb = new StringBuffer(); //A string buffer allows a string to be built efficiently
+		for (row = 0; row &lt; matrix.length; row++){ //Loop over each row in the matrix
+			for (int col = 0; col &lt; matrix[row].length; col++){ //Loop over each column in the matrix
+				if (matrix[row][col] > '0') sb.append(matrix[row][col]); //Extract the character at the row/col position if it's not 0.
+			}
+		}
+		
+		return sb.toString(); //Convert the StringBuffer into a String and return it
+	</body>
+            </ownedBehavior>
+            <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_320xoLowEeW4KJ2IY8zttg" name="decrypt" specification="_3h5qgLowEeW4KJ2IY8zttg">
+              <ownedParameter xmi:id="_320xobowEeW4KJ2IY8zttg" name="cypherText">
+                <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+              </ownedParameter>
+              <ownedParameter xmi:id="_320xorowEeW4KJ2IY8zttg" name="key">
+                <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+              </ownedParameter>
+              <ownedParameter xmi:id="_320xo7owEeW4KJ2IY8zttg" direction="return">
+                <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+              </ownedParameter>
+              <language>java</language>
+              <body>//Declare a 2D array of key rows and text length columns
+		char[][] matrix = new char[key][cypherText.length()]; //The array is filled with chars with initial values of zero, i.e. '0'.
+		
+		//Fill the array
+		int targetRow = 0;
+		int index = 0;
+		do{
+			int row = 0; //Used to keep track of rows		
+			boolean down = true; //Used to zigzag
+			for (int i = 0; i &lt; cypherText.length(); i++){ //Loop over the plaintext
+				if (row == targetRow){
+					matrix[row][i] = cypherText.charAt(index); //Add the next character in the plaintext to the array
+					index++;
+				}
+				
+				if (down){ //If we are moving down the array
+					row++;
+					if (row == matrix.length){ //Reached the bottom
+						row = matrix.length - 2; //Move to the row above
+						down = false; //Switch to moving up
+					} 
+				}else{ //We are moving up the array
+					row--;
+					
+					if (row == -1){ //Reached the top
+						row = 1; //Move to the first row
+						down = true; //Switch to moving down
+					}
+				}
+			}
+
+			targetRow++;
+		}while (targetRow &lt; matrix.length);
+		
+		//printMatrix(matrix); //Output the matrix (debug)
+		
+		//Extract the cypher text
+		StringBuffer sb = new StringBuffer(); //A string buffer allows a string to be built efficiently
+		int row = 0;
+		boolean down = true; //Used to zigzag
+		for (int col = 0; col &lt; matrix[row].length; col++){ //Loop over each column in the matrix
+			sb.append(matrix[row][col]); //Extract the character at the row/col position if it's not 0.
+			
+			if (down){ //If we are moving down the array
+				row++;
+				if (row == matrix.length){ //Reached the bottom
+					row = matrix.length - 2; //Move to the row above
+					down = false; //Switch to moving up
+				} 
+			}else{ //We are moving up the array
+				row--;
+				
+				if (row == -1){ //Reached the top
+					row = 1; //Move to the first row
+					down = true; //Switch to moving down
+				}
+			}
+
+		}
+		
+		return sb.toString(); //Convert the StringBuffer into a String and return it
+	</body>
+            </ownedBehavior>
+            <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_321_wLowEeW4KJ2IY8zttg" name="printMatrix" specification="_3h8t0LowEeW4KJ2IY8zttg">
+              <ownedParameter xmi:id="_321_wbowEeW4KJ2IY8zttg" name="matrix">
+                <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#char"/>
+                <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_321_wrowEeW4KJ2IY8zttg" value="*"/>
+              </ownedParameter>
+              <language>java</language>
+              <body>for (int row = 0; row &lt; matrix.length; row++){ //Loop over each row in the matrix
+			for (int col = 0; col &lt; matrix[row].length; col++){ //Loop over each column in the matrix
+				System.out.print(matrix[row][col]); //Output the value at row/column index
+				if (col &lt; matrix[row].length - 1) System.out.print(&quot;,&quot;);
+			}
+			System.out.println();
+		}
+	</body>
+            </ownedBehavior>
+            <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_322m0LowEeW4KJ2IY8zttg" name="main" specification="_3iA_QLowEeW4KJ2IY8zttg">
+              <ownedParameter xmi:id="_322m0bowEeW4KJ2IY8zttg" name="args">
+                <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+                <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_322m0rowEeW4KJ2IY8zttg" value="*"/>
+              </ownedParameter>
+              <language>java</language>
+              <body>String s = new RailFence().decrypt(&quot;TTFOHATGRNREEANOETYRCIMHHAKT&quot;, 5);
+		System.out.println(&quot;>&quot; + s);
+	</body>
+            </ownedBehavior>
+            <ownedOperation xmi:id="_3h3OQLowEeW4KJ2IY8zttg" name="encrypt" method="_320KkLowEeW4KJ2IY8zttg">
+              <ownedParameter xmi:id="_3h31ULowEeW4KJ2IY8zttg" name="cypherText">
+                <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+              </ownedParameter>
+              <ownedParameter xmi:id="_3h31UbowEeW4KJ2IY8zttg" name="key">
+                <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+              </ownedParameter>
+              <ownedParameter xmi:id="_3h4cYLowEeW4KJ2IY8zttg" direction="return">
+                <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+              </ownedParameter>
+            </ownedOperation>
+            <ownedOperation xmi:id="_3h5qgLowEeW4KJ2IY8zttg" name="decrypt" method="_320xoLowEeW4KJ2IY8zttg">
+              <ownedParameter xmi:id="_3h6RkLowEeW4KJ2IY8zttg" name="cypherText">
+                <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+              </ownedParameter>
+              <ownedParameter xmi:id="_3h64oLowEeW4KJ2IY8zttg" name="key">
+                <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+              </ownedParameter>
+              <ownedParameter xmi:id="_3h7fsLowEeW4KJ2IY8zttg" direction="return">
+                <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+              </ownedParameter>
+            </ownedOperation>
+            <ownedOperation xmi:id="_3h8t0LowEeW4KJ2IY8zttg" name="printMatrix" visibility="private" method="_321_wLowEeW4KJ2IY8zttg">
+              <ownedParameter xmi:id="_3h8t0bowEeW4KJ2IY8zttg" name="matrix">
+                <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#char"/>
+                <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_3h978LowEeW4KJ2IY8zttg" value="*"/>
+              </ownedParameter>
+            </ownedOperation>
+            <ownedOperation xmi:id="_3iA_QLowEeW4KJ2IY8zttg" name="main" isStatic="true" method="_322m0LowEeW4KJ2IY8zttg" raisedException="_31EeILowEeW4KJ2IY8zttg">
+              <ownedParameter xmi:id="_3iBmULowEeW4KJ2IY8zttg" name="args">
+                <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+                <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_3iCNYLowEeW4KJ2IY8zttg" value="*"/>
+              </ownedParameter>
+            </ownedOperation>
+          </packagedElement>
+          <packagedElement xmi:type="uml:Class" xmi:id="_3iF3wLowEeW4KJ2IY8zttg" name="RailFenceRunner">
+            <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_32308LowEeW4KJ2IY8zttg" name="main" specification="_3iJiILowEeW4KJ2IY8zttg">
+              <ownedParameter xmi:id="_32308bowEeW4KJ2IY8zttg" name="args">
+                <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+                <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_32308rowEeW4KJ2IY8zttg" value="*"/>
+              </ownedParameter>
+              <language>java</language>
+              <body>FileReader fr = new FileReader();&#xD;
+		Scanner console = new Scanner(System.in);&#xD;
+		QuadGramMap.fillMap();&#xD;
+		String fileIn = &quot;&quot;;&#xD;
+		String efile = &quot;&quot;;&#xD;
+		boolean valid = true;&#xD;
+	&#xD;
+		while (valid) {&#xD;
+			System.out.println(&quot;Enter file name of the file containing the enrypted text:&quot;);&#xD;
+			fileIn = console.next();&#xD;
+			&#xD;
+			try {&#xD;
+				efile = fr.retrieveFile(fileIn);&#xD;
+				CypherBreaker cb = new CypherBreaker(efile);&#xD;
+				valid = false;&#xD;
+			} catch (IOException e) {&#xD;
+				System.out.println(&quot;Unable to open File&quot;);&#xD;
+			}&#xD;
+&#xD;
+		}&#xD;
+		&#xD;
+&#xD;
+	</body>
+            </ownedBehavior>
+            <ownedOperation xmi:id="_3iJiILowEeW4KJ2IY8zttg" name="main" isStatic="true" method="_32308LowEeW4KJ2IY8zttg" raisedException="_3zgX4bowEeW4KJ2IY8zttg">
+              <ownedParameter xmi:id="_3iJiIbowEeW4KJ2IY8zttg" name="args">
+                <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+                <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_3iKwQLowEeW4KJ2IY8zttg" value="*"/>
+              </ownedParameter>
+            </ownedOperation>
+          </packagedElement>
+          <packagedElement xmi:type="uml:Class" xmi:id="_3iOaoLowEeW4KJ2IY8zttg" name="Result">
+            <ownedAttribute xmi:id="_32KqULowEeW4KJ2IY8zttg" name="plainText">
+              <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+            </ownedAttribute>
+            <ownedAttribute xmi:id="_32L4cLowEeW4KJ2IY8zttg" name="key">
+              <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+            </ownedAttribute>
+            <ownedAttribute xmi:id="_32NGkLowEeW4KJ2IY8zttg" name="score">
+              <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+            </ownedAttribute>
+            <interfaceRealization xmi:id="_30B8ULowEeW4KJ2IY8zttg" client="_3iOaoLowEeW4KJ2IY8zttg" supplier="_3ieSQLowEeW4KJ2IY8zttg" contract="_3ieSQLowEeW4KJ2IY8zttg"/>
+            <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_324cALowEeW4KJ2IY8zttg" name="Result" specification="_3iVvYLowEeW4KJ2IY8zttg">
+              <ownedParameter xmi:id="_324cAbowEeW4KJ2IY8zttg" name="plainText">
+                <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+              </ownedParameter>
+              <ownedParameter xmi:id="_324cArowEeW4KJ2IY8zttg" name="key">
+                <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+              </ownedParameter>
+              <ownedParameter xmi:id="_324cA7owEeW4KJ2IY8zttg" name="score">
+                <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+              </ownedParameter>
+              <ownedParameter xmi:id="_324cBLowEeW4KJ2IY8zttg" type="_3iOaoLowEeW4KJ2IY8zttg" direction="return"/>
+              <language>java</language>
+              <body>super();&#xD;
+		this.plainText = plainText;&#xD;
+		this.key = key;&#xD;
+		this.score = score;&#xD;
+	</body>
+            </ownedBehavior>
+            <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_325qILowEeW4KJ2IY8zttg" name="compareTo" specification="_30EYkLowEeW4KJ2IY8zttg">
+              <ownedParameter xmi:id="_325qIbowEeW4KJ2IY8zttg" name="arg0" type="_3ieSQLowEeW4KJ2IY8zttg"/>
+              <ownedParameter xmi:id="_325qIrowEeW4KJ2IY8zttg" direction="return">
+                <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+              </ownedParameter>
+              <language>java</language>
+              <body>return 0;&#xD;
+	</body>
+            </ownedBehavior>
+            <ownedOperation xmi:id="_3iVvYLowEeW4KJ2IY8zttg" name="Result" method="_324cALowEeW4KJ2IY8zttg">
+              <eAnnotations xmi:id="_3iXkkLowEeW4KJ2IY8zttg" source="http://www.eclipse.org/uml2/2.0.0/UML">
+                <details xmi:id="_3iXkkbowEeW4KJ2IY8zttg" key="create"/>
+              </eAnnotations>
+              <ownedParameter xmi:id="_3iVvYbowEeW4KJ2IY8zttg" name="plainText">
+                <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+              </ownedParameter>
+              <ownedParameter xmi:id="_3iWWcLowEeW4KJ2IY8zttg" name="key">
+                <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+              </ownedParameter>
+              <ownedParameter xmi:id="_3iW9gLowEeW4KJ2IY8zttg" name="score">
+                <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+              </ownedParameter>
+              <ownedParameter xmi:id="_3iXkkrowEeW4KJ2IY8zttg" type="_3iOaoLowEeW4KJ2IY8zttg" direction="return"/>
+            </ownedOperation>
+            <ownedOperation xmi:id="_30EYkLowEeW4KJ2IY8zttg" name="compareTo" method="_325qILowEeW4KJ2IY8zttg">
+              <ownedParameter xmi:id="_30EYkbowEeW4KJ2IY8zttg" name="arg0" type="_3ieSQLowEeW4KJ2IY8zttg"/>
+              <ownedParameter xmi:id="_30FmsLowEeW4KJ2IY8zttg" direction="return">
+                <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+              </ownedParameter>
+            </ownedOperation>
+          </packagedElement>
+          <packagedElement xmi:type="uml:Interface" xmi:id="_3ieSQLowEeW4KJ2IY8zttg" name="Resultable">
+            <generalization xmi:id="_31J9sbowEeW4KJ2IY8zttg" general="_31IIgLowEeW4KJ2IY8zttg"/>
+            <ownedOperation xmi:id="_3igugLowEeW4KJ2IY8zttg" name="getPlainText" isAbstract="true">
+              <ownedParameter xmi:id="_3ihVkLowEeW4KJ2IY8zttg" direction="return">
+                <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+              </ownedParameter>
+            </ownedOperation>
+            <ownedOperation xmi:id="_3iijsLowEeW4KJ2IY8zttg" name="setPlainText" isAbstract="true">
+              <ownedParameter xmi:id="_3iijsbowEeW4KJ2IY8zttg" name="plainText">
+                <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+              </ownedParameter>
+            </ownedOperation>
+            <ownedOperation xmi:id="_3ijx0LowEeW4KJ2IY8zttg" name="getKey" isAbstract="true">
+              <ownedParameter xmi:id="_3ikY4LowEeW4KJ2IY8zttg" direction="return">
+                <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+              </ownedParameter>
+            </ownedOperation>
+            <ownedOperation xmi:id="_3ilnALowEeW4KJ2IY8zttg" name="setKey" isAbstract="true">
+              <ownedParameter xmi:id="_3ilnAbowEeW4KJ2IY8zttg" name="key">
+                <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+              </ownedParameter>
+            </ownedOperation>
+            <ownedOperation xmi:id="_3im1ILowEeW4KJ2IY8zttg" name="getScore" isAbstract="true">
+              <ownedParameter xmi:id="_3ip4cLowEeW4KJ2IY8zttg" direction="return">
+                <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+              </ownedParameter>
+            </ownedOperation>
+            <ownedOperation xmi:id="_3iti0LowEeW4KJ2IY8zttg" name="setScore" isAbstract="true">
+              <ownedParameter xmi:id="_3iti0bowEeW4KJ2IY8zttg" name="score">
+                <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+              </ownedParameter>
+            </ownedOperation>
+          </packagedElement>
+          <packagedElement xmi:type="uml:Class" xmi:id="_3i8MULowEeW4KJ2IY8zttg" name="TextScorer">
+            <ownedAttribute xmi:id="_32O7wLowEeW4KJ2IY8zttg" name="map" visibility="private">
+              <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+              <qualifier xmi:id="_32RYALowEeW4KJ2IY8zttg">
+                <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+              </qualifier>
+              <defaultValue xmi:type="uml:LiteralString" xmi:id="_32O7wbowEeW4KJ2IY8zttg" value="null"/>
+            </ownedAttribute>
+            <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_326RMLowEeW4KJ2IY8zttg" name="TextScorer" specification="_31OPILowEeW4KJ2IY8zttg">
+              <ownedParameter xmi:id="_326RMbowEeW4KJ2IY8zttg" name="m" type="_3zz54LowEeW4KJ2IY8zttg"/>
+              <ownedParameter xmi:id="_326RMrowEeW4KJ2IY8zttg" type="_3i8MULowEeW4KJ2IY8zttg" direction="return"/>
+              <language>java</language>
+              <body>this.map = m;
+	</body>
+            </ownedBehavior>
+            <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_327fULowEeW4KJ2IY8zttg" name="getScore" specification="_3jAdwLowEeW4KJ2IY8zttg">
+              <ownedParameter xmi:id="_327fUbowEeW4KJ2IY8zttg" name="text">
+                <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+              </ownedParameter>
+              <ownedParameter xmi:id="_327fUrowEeW4KJ2IY8zttg" direction="return">
+                <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+              </ownedParameter>
+              <language>java</language>
+              <body>double score = 0f;
+
+		for (int i = 0; i &lt; text.length(); i++){
+			if (i + QuadGramMap.GRAM_SIZE &lt;= text.length() -1){
+				score += computeLogScore(text.substring(i, i + QuadGramMap.GRAM_SIZE));
+			}
+		}
+		return score;
+	</body>
+            </ownedBehavior>
+            <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_328GYLowEeW4KJ2IY8zttg" name="computeLogScore" specification="_3jDhELowEeW4KJ2IY8zttg">
+              <ownedParameter xmi:id="_328GYbowEeW4KJ2IY8zttg" name="quadgram">
+                <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+              </ownedParameter>
+              <ownedParameter xmi:id="_328GYrowEeW4KJ2IY8zttg" direction="return">
+                <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+              </ownedParameter>
+              <language>java</language>
+              <body>if (map.containsKey(quadgram)){
+			double frequency = map.get(quadgram);
+			double total = (double) map.size();
+			double probability = (double) (frequency/total);
+			
+			return Math.log10(probability);
+		}else{
+			return 0f;
+		}
+	</body>
+            </ownedBehavior>
+            <ownedOperation xmi:id="_3jAdwLowEeW4KJ2IY8zttg" name="getScore" method="_327fULowEeW4KJ2IY8zttg">
+              <ownedParameter xmi:id="_3jAdwbowEeW4KJ2IY8zttg" name="text">
+                <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+              </ownedParameter>
+              <ownedParameter xmi:id="_3jBE0LowEeW4KJ2IY8zttg" direction="return">
+                <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+              </ownedParameter>
+            </ownedOperation>
+            <ownedOperation xmi:id="_3jDhELowEeW4KJ2IY8zttg" name="computeLogScore" method="_328GYLowEeW4KJ2IY8zttg">
+              <ownedParameter xmi:id="_3jDhEbowEeW4KJ2IY8zttg" name="quadgram">
+                <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+              </ownedParameter>
+              <ownedParameter xmi:id="_3jEvMLowEeW4KJ2IY8zttg" direction="return">
+                <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+              </ownedParameter>
+            </ownedOperation>
+            <ownedOperation xmi:id="_31OPILowEeW4KJ2IY8zttg" name="TextScorer" method="_326RMLowEeW4KJ2IY8zttg">
+              <eAnnotations xmi:id="_31O2MLowEeW4KJ2IY8zttg" source="http://www.eclipse.org/uml2/2.0.0/UML">
+                <details xmi:id="_31O2MbowEeW4KJ2IY8zttg" key="create"/>
+              </eAnnotations>
+              <ownedParameter xmi:id="_31OPIbowEeW4KJ2IY8zttg" name="m" type="_3zz54LowEeW4KJ2IY8zttg"/>
+              <ownedParameter xmi:id="_31O2MrowEeW4KJ2IY8zttg" type="_3i8MULowEeW4KJ2IY8zttg" direction="return"/>
+            </ownedOperation>
+          </packagedElement>
+          <packagedElement xmi:type="uml:Class" xmi:id="_3jLc4LowEeW4KJ2IY8zttg" name="poisionResult">
+            <ownedAttribute xmi:id="_32R_ELowEeW4KJ2IY8zttg" name="score">
+              <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+            </ownedAttribute>
+            <ownedAttribute xmi:id="_32TNMLowEeW4KJ2IY8zttg" name="plainText">
+              <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+            </ownedAttribute>
+            <ownedAttribute xmi:id="_32UbULowEeW4KJ2IY8zttg" name="key">
+              <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+            </ownedAttribute>
+            <interfaceRealization xmi:id="_30Ql0LowEeW4KJ2IY8zttg" client="_3jLc4LowEeW4KJ2IY8zttg" supplier="_3ieSQLowEeW4KJ2IY8zttg" contract="_3ieSQLowEeW4KJ2IY8zttg"/>
+            <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_329UgLowEeW4KJ2IY8zttg" name="poisionResult" specification="_3jQVYLowEeW4KJ2IY8zttg">
+              <ownedParameter xmi:id="_329UgbowEeW4KJ2IY8zttg" name="score">
+                <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+              </ownedParameter>
+              <ownedParameter xmi:id="_329UgrowEeW4KJ2IY8zttg" name="plainText">
+                <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+              </ownedParameter>
+              <ownedParameter xmi:id="_329Ug7owEeW4KJ2IY8zttg" name="key">
+                <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+              </ownedParameter>
+              <ownedParameter xmi:id="_329UhLowEeW4KJ2IY8zttg" type="_3jLc4LowEeW4KJ2IY8zttg" direction="return"/>
+              <language>java</language>
+              <body>super();&#xD;
+		this.score = score;&#xD;
+		this.plainText = plainText;&#xD;
+		this.key = key;&#xD;
+	</body>
+            </ownedBehavior>
+            <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_3297kLowEeW4KJ2IY8zttg" name="compareTo" specification="_30Rz8LowEeW4KJ2IY8zttg">
+              <ownedParameter xmi:id="_3297kbowEeW4KJ2IY8zttg" name="o" type="_3ieSQLowEeW4KJ2IY8zttg"/>
+              <ownedParameter xmi:id="_3297krowEeW4KJ2IY8zttg" direction="return">
+                <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+              </ownedParameter>
+              <language>java</language>
+              <body>return 0;&#xD;
+	</body>
+            </ownedBehavior>
+            <ownedOperation xmi:id="_3jQVYLowEeW4KJ2IY8zttg" name="poisionResult" method="_329UgLowEeW4KJ2IY8zttg">
+              <eAnnotations xmi:id="_3jRjgbowEeW4KJ2IY8zttg" source="http://www.eclipse.org/uml2/2.0.0/UML">
+                <details xmi:id="_3jSKkLowEeW4KJ2IY8zttg" key="create"/>
+              </eAnnotations>
+              <ownedParameter xmi:id="_3jQVYbowEeW4KJ2IY8zttg" name="score">
+                <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+              </ownedParameter>
+              <ownedParameter xmi:id="_3jQ8cLowEeW4KJ2IY8zttg" name="plainText">
+                <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+              </ownedParameter>
+              <ownedParameter xmi:id="_3jRjgLowEeW4KJ2IY8zttg" name="key">
+                <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+              </ownedParameter>
+              <ownedParameter xmi:id="_3jSKkbowEeW4KJ2IY8zttg" type="_3jLc4LowEeW4KJ2IY8zttg" direction="return"/>
+            </ownedOperation>
+            <ownedOperation xmi:id="_30Rz8LowEeW4KJ2IY8zttg" name="compareTo" method="_3297kLowEeW4KJ2IY8zttg">
+              <ownedParameter xmi:id="_30SbALowEeW4KJ2IY8zttg" name="o" type="_3ieSQLowEeW4KJ2IY8zttg"/>
+              <ownedParameter xmi:id="_30UQMLowEeW4KJ2IY8zttg" direction="return">
+                <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+              </ownedParameter>
+            </ownedOperation>
+          </packagedElement>
+          <packagedElement xmi:type="uml:Association" xmi:id="_33OaQLowEeW4KJ2IY8zttg" name="" memberEnd="_33OaQbowEeW4KJ2IY8zttg _31acYLowEeW4KJ2IY8zttg">
+            <ownedEnd xmi:id="_33OaQbowEeW4KJ2IY8zttg" name="" type="_3f77oLowEeW4KJ2IY8zttg" association="_33OaQLowEeW4KJ2IY8zttg"/>
+          </packagedElement>
+          <packagedElement xmi:type="uml:Association" xmi:id="_33QPcbowEeW4KJ2IY8zttg" name="" memberEnd="_33QPcrowEeW4KJ2IY8zttg _31c4oLowEeW4KJ2IY8zttg">
+            <ownedEnd xmi:id="_33QPcrowEeW4KJ2IY8zttg" name="" type="_3f77oLowEeW4KJ2IY8zttg" association="_33QPcbowEeW4KJ2IY8zttg"/>
+          </packagedElement>
+          <packagedElement xmi:type="uml:Association" xmi:id="_33SEobowEeW4KJ2IY8zttg" name="" memberEnd="_33SEorowEeW4KJ2IY8zttg _31mCkLowEeW4KJ2IY8zttg">
+            <ownedEnd xmi:id="_33SEorowEeW4KJ2IY8zttg" name="" type="_3f77oLowEeW4KJ2IY8zttg" association="_33SEobowEeW4KJ2IY8zttg"/>
+          </packagedElement>
+          <packagedElement xmi:type="uml:Association" xmi:id="_33Ug4LowEeW4KJ2IY8zttg" name="" memberEnd="_33Ug4bowEeW4KJ2IY8zttg _31ulcLowEeW4KJ2IY8zttg">
+            <ownedEnd xmi:id="_33Ug4bowEeW4KJ2IY8zttg" name="" type="_3gsJkLowEeW4KJ2IY8zttg" association="_33Ug4LowEeW4KJ2IY8zttg"/>
+          </packagedElement>
+          <packagedElement xmi:type="uml:Association" xmi:id="_33VvAbowEeW4KJ2IY8zttg" name="" memberEnd="_33VvArowEeW4KJ2IY8zttg _3116MLowEeW4KJ2IY8zttg">
+            <ownedEnd xmi:id="_33VvArowEeW4KJ2IY8zttg" name="" type="_3g494LowEeW4KJ2IY8zttg" association="_33VvAbowEeW4KJ2IY8zttg"/>
+          </packagedElement>
+          <packagedElement xmi:type="uml:Association" xmi:id="_33XkMbowEeW4KJ2IY8zttg" name="" memberEnd="_33XkMrowEeW4KJ2IY8zttg _319O8LowEeW4KJ2IY8zttg">
+            <ownedEnd xmi:id="_33XkMrowEeW4KJ2IY8zttg" name="" type="_3g494LowEeW4KJ2IY8zttg" association="_33XkMbowEeW4KJ2IY8zttg"/>
+          </packagedElement>
+          <packagedElement xmi:type="uml:Association" xmi:id="_33ZZYLowEeW4KJ2IY8zttg" name="" memberEnd="_33ZZYbowEeW4KJ2IY8zttg _31_EILowEeW4KJ2IY8zttg">
+            <ownedEnd xmi:id="_33ZZYbowEeW4KJ2IY8zttg" name="" type="_3g494LowEeW4KJ2IY8zttg" association="_33ZZYLowEeW4KJ2IY8zttg"/>
+          </packagedElement>
+        </packagedElement>
+      </packagedElement>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Package" xmi:id="_3dgSsLowEeW4KJ2IY8zttg" name="java">
+      <packagedElement xmi:type="uml:Package" xmi:id="_3dgSsbowEeW4KJ2IY8zttg" name="util">
+        <packagedElement xmi:type="uml:Interface" xmi:id="_3zz54LowEeW4KJ2IY8zttg" name="Map"/>
+        <packagedElement xmi:type="uml:Package" xmi:id="_3dg5wLowEeW4KJ2IY8zttg" name="concurrent">
+          <packagedElement xmi:type="uml:Interface" xmi:id="_3zDE4LowEeW4KJ2IY8zttg" name="BlockingQueue"/>
+          <packagedElement xmi:type="uml:Class" xmi:id="_3ztzQLowEeW4KJ2IY8zttg" name="ConcurrentHashMap"/>
+        </packagedElement>
+        <packagedElement xmi:type="uml:Class" xmi:id="_3z4LULowEeW4KJ2IY8zttg" name="Scanner"/>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Package" xmi:id="_3eaRoLowEeW4KJ2IY8zttg" name="io">
+        <packagedElement xmi:type="uml:Class" xmi:id="_3zX1ALowEeW4KJ2IY8zttg" name="BufferedReader"/>
+        <packagedElement xmi:type="uml:Class" xmi:id="_3za4ULowEeW4KJ2IY8zttg" name="File"/>
+        <packagedElement xmi:type="uml:Class" xmi:id="_3zd7oLowEeW4KJ2IY8zttg" name="FileInputStream"/>
+        <packagedElement xmi:type="uml:Class" xmi:id="_3zgX4bowEeW4KJ2IY8zttg" name="IOException"/>
+        <packagedElement xmi:type="uml:Class" xmi:id="_3zjbMLowEeW4KJ2IY8zttg" name="InputStreamReader"/>
+        <packagedElement xmi:type="uml:Class" xmi:id="_3zoTsLowEeW4KJ2IY8zttg" name="FileNotFoundException"/>
+        <packagedElement xmi:type="uml:Class" xmi:id="_3zqv8LowEeW4KJ2IY8zttg" name="InputStream"/>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Package" xmi:id="_30iSoLowEeW4KJ2IY8zttg" name="lang">
+        <packagedElement xmi:type="uml:Interface" xmi:id="_30i5sLowEeW4KJ2IY8zttg" name="Runnable"/>
+        <packagedElement xmi:type="uml:Class" xmi:id="_30_loLowEeW4KJ2IY8zttg" name="NumberFormatException"/>
+        <packagedElement xmi:type="uml:Class" xmi:id="_31EeILowEeW4KJ2IY8zttg" name="Exception"/>
+        <packagedElement xmi:type="uml:Interface" xmi:id="_31IIgLowEeW4KJ2IY8zttg" name="Comparable"/>
+      </packagedElement>
+    </packagedElement>
+    <profileApplication xmi:id="_24ObYLowEeW4KJ2IY8zttg">
+      <eAnnotations xmi:id="_24UiALowEeW4KJ2IY8zttg" source="http://www.eclipse.org/uml2/2.0.0/UML">
+        <references xmi:type="ecore:EPackage" href="pathmap://UMLLAB_PROFILES/UMLLab.profile.uml#UMLLabProfile-Annotation_2-UMLLabProfile"/>
+      </eAnnotations>
+      <appliedProfile href="pathmap://UMLLAB_PROFILES/UMLLab.profile.uml#UMLLabProfile"/>
+    </profileApplication>
+  </uml:Model>
+  <UMLLabProfile:TargetLanguage xmi:id="_24h9YLowEeW4KJ2IY8zttg" base_Package="_2TmrYLowEeW4KJ2IY8zttg">
+    <languageName>java</languageName>
+  </UMLLabProfile:TargetLanguage>
+  <UMLLabProfile:Generics xmi:id="_3hW38LowEeW4KJ2IY8zttg" genericsValue="String, Double" base_Element="_3hTNkLowEeW4KJ2IY8zttg"/>
+  <UMLLabProfile:Array xmi:id="_3h_KELowEeW4KJ2IY8zttg" dimensions="2" base_Element="_3h8t0bowEeW4KJ2IY8zttg"/>
+  <UMLLabProfile:Reference xmi:id="_3zGIMLowEeW4KJ2IY8zttg" base_Element="_3zDE4LowEeW4KJ2IY8zttg"/>
+  <UMLLabProfile:Reference xmi:id="_3zaRQLowEeW4KJ2IY8zttg" base_Element="_3zX1ALowEeW4KJ2IY8zttg"/>
+  <UMLLabProfile:Reference xmi:id="_3zdUkLowEeW4KJ2IY8zttg" base_Element="_3za4ULowEeW4KJ2IY8zttg"/>
+  <UMLLabProfile:Reference xmi:id="_3zgX4LowEeW4KJ2IY8zttg" base_Element="_3zd7oLowEeW4KJ2IY8zttg"/>
+  <UMLLabProfile:Reference xmi:id="_3zi0ILowEeW4KJ2IY8zttg" base_Element="_3zgX4bowEeW4KJ2IY8zttg"/>
+  <UMLLabProfile:Reference xmi:id="_3zl3cLowEeW4KJ2IY8zttg" base_Element="_3zjbMLowEeW4KJ2IY8zttg"/>
+  <UMLLabProfile:Reference xmi:id="_3zqI4LowEeW4KJ2IY8zttg" base_Element="_3zoTsLowEeW4KJ2IY8zttg"/>
+  <UMLLabProfile:Reference xmi:id="_3ztMMLowEeW4KJ2IY8zttg" base_Element="_3zqv8LowEeW4KJ2IY8zttg"/>
+  <UMLLabProfile:Reference xmi:id="_3zwPgLowEeW4KJ2IY8zttg" base_Element="_3ztzQLowEeW4KJ2IY8zttg"/>
+  <UMLLabProfile:Reference xmi:id="_3z1vELowEeW4KJ2IY8zttg" base_Element="_3zz54LowEeW4KJ2IY8zttg"/>
+  <UMLLabProfile:Reference xmi:id="_3z6AgLowEeW4KJ2IY8zttg" base_Element="_3z4LULowEeW4KJ2IY8zttg"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_30G00LowEeW4KJ2IY8zttg" base_Element="_30EYkLowEeW4KJ2IY8zttg"/>
+  <UMLLabProfile:Annotations xmi:id="_30JRELowEeW4KJ2IY8zttg" base_Element="_30EYkLowEeW4KJ2IY8zttg">
+    <annotations xmi:id="_30JREbowEeW4KJ2IY8zttg" name="Override"/>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_30U3QLowEeW4KJ2IY8zttg" base_Element="_30Rz8LowEeW4KJ2IY8zttg"/>
+  <UMLLabProfile:Annotations xmi:id="_30WFYLowEeW4KJ2IY8zttg" base_Element="_30Rz8LowEeW4KJ2IY8zttg">
+    <annotations xmi:id="_30WscLowEeW4KJ2IY8zttg" name="Override"/>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:Reference xmi:id="_30ku4LowEeW4KJ2IY8zttg" base_Element="_30i5sLowEeW4KJ2IY8zttg"/>
+  <UMLLabProfile:Generics xmi:id="_30rckLowEeW4KJ2IY8zttg" genericsValue="Resultable" base_Element="_30nyMbowEeW4KJ2IY8zttg"/>
+  <UMLLabProfile:Generics xmi:id="_303CwLowEeW4KJ2IY8zttg" genericsValue="Resultable" base_Element="_30yxUbowEeW4KJ2IY8zttg"/>
+  <UMLLabProfile:Reference xmi:id="_31Ba0LowEeW4KJ2IY8zttg" base_Element="_30_loLowEeW4KJ2IY8zttg"/>
+  <UMLLabProfile:Reference xmi:id="_31FsQLowEeW4KJ2IY8zttg" base_Element="_31EeILowEeW4KJ2IY8zttg"/>
+  <UMLLabProfile:Reference xmi:id="_31J9sLowEeW4KJ2IY8zttg" base_Element="_31IIgLowEeW4KJ2IY8zttg"/>
+  <UMLLabProfile:Generics xmi:id="_31MZ8LowEeW4KJ2IY8zttg" genericsValue="Resultable" base_Element="_31J9sbowEeW4KJ2IY8zttg"/>
+  <UMLLabProfile:Generics xmi:id="_31THoLowEeW4KJ2IY8zttg" genericsValue="String, Double" base_Element="_31OPIbowEeW4KJ2IY8zttg"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_31cRkLowEeW4KJ2IY8zttg" base_Element="_31acYLowEeW4KJ2IY8zttg"/>
+  <UMLLabProfile:Generics xmi:id="_31et0LowEeW4KJ2IY8zttg" genericsValue="Resultable" base_Element="_31c4oLowEeW4KJ2IY8zttg"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_31gjALowEeW4KJ2IY8zttg" base_Element="_31c4oLowEeW4KJ2IY8zttg"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_31ps8LowEeW4KJ2IY8zttg" base_Element="_31mCkLowEeW4KJ2IY8zttg"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_31swQLowEeW4KJ2IY8zttg" base_Element="_31qUALowEeW4KJ2IY8zttg"/>
+  <UMLLabProfile:Generics xmi:id="_31xBsLowEeW4KJ2IY8zttg" genericsValue="Resultable" base_Element="_31ulcLowEeW4KJ2IY8zttg"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_31y24LowEeW4KJ2IY8zttg" base_Element="_31ulcLowEeW4KJ2IY8zttg"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_311TILowEeW4KJ2IY8zttg" base_Element="_31zd8LowEeW4KJ2IY8zttg"/>
+  <UMLLabProfile:Generics xmi:id="_313vYLowEeW4KJ2IY8zttg" genericsValue="Resultable" base_Element="_3116MLowEeW4KJ2IY8zttg"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_3149gLowEeW4KJ2IY8zttg" base_Element="_3116MLowEeW4KJ2IY8zttg"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_316ysLowEeW4KJ2IY8zttg" base_Element="_315kkLowEeW4KJ2IY8zttg"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_318n4LowEeW4KJ2IY8zttg" base_Element="_317ZwLowEeW4KJ2IY8zttg"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_31-dELowEeW4KJ2IY8zttg" base_Element="_319O8LowEeW4KJ2IY8zttg"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_32A5ULowEeW4KJ2IY8zttg" base_Element="_31_EILowEeW4KJ2IY8zttg"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_32D8oLowEeW4KJ2IY8zttg" base_Element="_32BgYLowEeW4KJ2IY8zttg"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_32GY4LowEeW4KJ2IY8zttg" base_Element="_32EjsLowEeW4KJ2IY8zttg"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_32IOELowEeW4KJ2IY8zttg" base_Element="_32G_8LowEeW4KJ2IY8zttg"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_32Qw8LowEeW4KJ2IY8zttg" base_Element="_32O7wLowEeW4KJ2IY8zttg"/>
+  <UMLLabProfile:Reference xmi:id="_33QPcLowEeW4KJ2IY8zttg" base_Element="_33OaQLowEeW4KJ2IY8zttg"/>
+  <UMLLabProfile:Reference xmi:id="_33SEoLowEeW4KJ2IY8zttg" base_Element="_33QPcbowEeW4KJ2IY8zttg"/>
+  <UMLLabProfile:Reference xmi:id="_33T50LowEeW4KJ2IY8zttg" base_Element="_33SEobowEeW4KJ2IY8zttg"/>
+  <UMLLabProfile:Reference xmi:id="_33VvALowEeW4KJ2IY8zttg" base_Element="_33Ug4LowEeW4KJ2IY8zttg"/>
+  <UMLLabProfile:Reference xmi:id="_33XkMLowEeW4KJ2IY8zttg" base_Element="_33VvAbowEeW4KJ2IY8zttg"/>
+  <UMLLabProfile:Reference xmi:id="_33YyULowEeW4KJ2IY8zttg" base_Element="_33XkMbowEeW4KJ2IY8zttg"/>
+  <UMLLabProfile:Reference xmi:id="_33mNsLowEeW4KJ2IY8zttg" base_Element="_33ZZYLowEeW4KJ2IY8zttg"/>
+</xmi:XMI>
