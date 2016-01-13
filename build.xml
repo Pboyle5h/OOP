@@ -2,9 +2,9 @@
 <!-- ===================================================================================
      GALWAY-MAYO INSTITUTE OF TECHNOLOGY 
      
-     Copyright 2015. 		<Your Name>
+     Copyright 2015. 		Pauric Boyle
      						B.Sc. in Software Development
-							<your id>@gmit.ie
+							g00316554@gmit.ie
      						Object-Oriented Programming
      						
      						A Multi-threaded Cypher Breaker
@@ -19,7 +19,7 @@
 	<!-- Declare global properties (name/value pairs) for this build -->
 
 	
-	<property name="user.name" value="Your ID"/>
+	<property name="user.name" value="g00316554"/>
 	
 	<property name="org.name" value="Galway-Mayo Institute of Technology"/>
 	<property name="app.name" value="A Multi-threaded Cypher Breaker"/>
@@ -65,7 +65,7 @@
     
 	<!-- Compile source code -->
 	<target name="compile" depends="init">
-		<javac target="${jre.target}" source="${jre.target}" srcdir="${srcDir}" destdir="${distDir}">
+		<javac target="${jre.target}" source="${jre.target}" srcdir="${srcDir}" destdir="${distDir}" fork="${yes}">
 		    <classpath refid="classpath" />
 		</javac>
 	</target>
@@ -75,7 +75,7 @@
 	<target name="archive" depends="compile">
         <jar destfile="${distDir}/railfence.jar" basedir="${distDir}" excludes="**/*Test.class, **/Compact*.class">         
         	 <manifest>
-        	 	<attribute name="Main-Class" value="ie.gmit.sw.Runner"/>
+        	 	<attribute name="Main-Class" value="ie.gmit.sw.RailFenceRunner"/>
 				<attribute name="Built-By" value="${user.name}"/>
 				<attribute name="Implementation-Vendor" value="${org.name}"/>
 				<attribute name="Implementation-Title" value="${app.name}"/>
