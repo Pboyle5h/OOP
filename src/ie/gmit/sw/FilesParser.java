@@ -26,7 +26,7 @@ public class FilesParser {
 		while ((line = input.readLine())!= null) {
 			
 			String[] Score = line.split(" ");
-			QuadGramMap.QGMap.put(Score[0], Double.parseDouble(Score[1]));	
+			temp.put(Score[0], Double.parseDouble(Score[1]));	
 				
 			 }//while
 		input.close();

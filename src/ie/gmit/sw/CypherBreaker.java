@@ -20,32 +20,7 @@ public class CypherBreaker {
 		{
 			new Thread(new Decryptor(queue, cypherText, i)).start();
 		}
-//		new Thread(new Runnable()
-//		{
-//			public void run() {
-//				while(!queue.isEmpty())
-//				{	
-//					try {
-//						Resultable r = queue.take();
-//						/*
-//						 * create poisonResult class that implements Resultable 
-//						 * white diamond straight line uml connection to result
-//						 * 
-//						 * MUTEX LOCK a volatile counter and increment until counter is the size of the 
-//						 * blocking queue was at the start
-//						 * when the numbers are the same, put a poisonResult into queue to kill it off
-//						 */
-//						if(r instanceof /*Poison*/Result)
-//						{
-//							return;
-//						}
-//						//do something......
-//					} catch (InterruptedException e) {
-//						// TODO Auto-generated catch block
-//						e.printStackTrace();
-//					}
-//				}
-//			}
-//		});
+		Thread t = new Thread(new Cunsumer(cypherText.length()/2, queue)); 
+		t.start(); //start thread
 	}
 }
