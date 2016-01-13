@@ -11,26 +11,30 @@ import java.util.*;
 import java.util.concurrent.ConcurrentHashMap;
 
 public class FilesParser {
-	
-	String line=null;
-	public Map<String, Double> parse (String File) throws NumberFormatException, IOException 
-	{
+
+	String line = null;
+
+	// parse method is used to read in the 4grams.txt and put it into a map
+	public Map<String, Double> parse(String File) throws NumberFormatException, IOException {
 		Map<String, Double> temp = new ConcurrentHashMap<String, Double>();
 		BufferedReader input = null;
 		try {
+			// stores the full text into the string input
 			input = new BufferedReader(new InputStreamReader(new FileInputStream("4grams.txt")));
 		} catch (FileNotFoundException e) {
 			e.printStackTrace();
 		}
-		
-		while ((line = input.readLine())!= null) {
-			
+		// read through each line in the string untill its finished
+		while ((line = input.readLine()) != null) {
+			// splits the text up when there a space
 			String[] Score = line.split(" ");
-			temp.put(Score[0], Double.parseDouble(Score[1]));	
-				
-			 }//while
+			// the first text is the 4 characters and the second one is the
+			// score.
+			temp.put(Score[0], Double.parseDouble(Score[1]));
+
+		} // while
 		input.close();
 		return temp;
-	}	
-	
+	}
+
 }
